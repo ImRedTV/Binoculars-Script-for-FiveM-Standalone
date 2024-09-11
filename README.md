@@ -3,7 +3,7 @@
 #### Aperçu
 
 Le script Binoculars permet aux joueurs d'utiliser des jumelles dans FiveM avec des fonctionnalités telles que le zoom, les modes de vision (normal, thermique et vision nocturne), et un affichage HUD personnalisable. Le script est optimisé pour les performances.
-La fonctionnalité par usage d'item dans l'inventaire n'est pas garanti par manque de connaissance.
+La fonctionnalité par usage d'item dans l'inventaire n'est pas garanti par manque de connaissance. Je suis loin d'être développeur j'ai bidouille cela sur mon temps libre.
 
 #### Fonctionnalités
 
