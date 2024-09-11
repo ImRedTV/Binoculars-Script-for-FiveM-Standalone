@@ -18,7 +18,7 @@ La fonctionnalité par usage d'item dans l'inventaire n'est pas garanti par manq
 
 #### Raccourcis Clavier
 
-- **Activer les Jumelles**: `G`
+- **Activer les Jumelles**: `G` ou `Item` si vous avez lié cela en item, n'oubliez pas de désactiver la commande le cas échéant.
 - **Ranger les Jumelles**: `Escape` et `Right Mouse Button`
 - **Changer de Mode de Vision**: `SHIFT`
 
