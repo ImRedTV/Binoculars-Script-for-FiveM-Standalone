@@ -51,7 +51,5 @@ La fonctionnalité par usage d'item dans l'inventaire n'est pas garanti par manq
 - `HideHUDThisFrame()`: Masque les éléments HUD par défaut pendant que les jumelles sont actives.
 
 #### Screen
-![alt text](https://i.ibb.co/5cCSLxm/RED-2024-09-11-17-53-08.png)
-![alt text](https://i.ibb.co/5cCSLxm/RED-2024-09-11-17-53-08.png)
-![alt text](https://i.ibb.co/nPgKQ1D/RED-2024-09-11-17-53-32.png)
+[SOON]
 
