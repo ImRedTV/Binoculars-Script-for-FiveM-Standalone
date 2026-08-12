@@ -11,6 +11,7 @@ local mode = 0 -- 0 = Normal, 1 = Thermal, 2 = Night Vision
 
 local fov = (fov_max + fov_min) * 0.5
 local hasBinoculars = false -- Default to false, to be enabled via command
+local binoculars = false -- True while the binocular camera is active
 local enableCommand = true -- Toggle this to enable or disable the /binoculars command for debug
 
 local Keys = {
@@ -75,6 +76,7 @@ function ActivateBinoculars(lPed)
         AttachCamToEntity(cam, lPed, 0.0, 0.0, 1.0, true)
         SetCamRot(cam, 0.0, 0.0, GetEntityHeading(lPed))
         SetCamFov(cam, fov)
+        UpdateVisionMode()
         RenderScriptCams(true, false, 0, true, false)
         PushScaleformMovieFunction(scaleform, "SET_CAM_LOGO")
         PushScaleformMovieFunctionParameterInt(0)
@@ -98,6 +100,7 @@ function ActivateBinoculars(lPed)
             CheckInputRotation(cam, zoomvalue)
             HandleZoom(cam)
             HideHUDThisFrame()
+            DrawHUD()
 
             DrawScaleformMovieFullscreen(scaleform, 255, 255, 255, 255)
             Citizen.Wait(10)
